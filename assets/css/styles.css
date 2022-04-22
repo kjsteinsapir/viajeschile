@@ -1,0 +1,13 @@
+/*Navbar*/
+
+
+.navbar{
+    /* background-color: green; */
+    position: fixed;
+    width: 100vw;
+    z-index:1;
+}
+
+.img-logo{
+    width:20px;
+}
