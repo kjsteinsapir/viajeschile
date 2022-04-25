@@ -34,35 +34,36 @@ article p{
     background-color: black;
 }
 
-.row{
-
-element.style {
-}
-.card-img, .card-img-top {
-    border-top-left-radius: calc(0.25rem - 1px);
-    /* border-top-right-radius: calc(0.25rem - 1px); */
-}
-.card-img, .card-img-bottom, .card-img-top {
+.card-img-top {
     width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
-img, svg {
-    vertical-align: middle;
+
+
+/*Contacto*/
+
+#contact-form{
+    background-color: black;
 }
-*, ::after, ::before {
-    box-sizing: border-box;
+
+/*Footer*/
+
+footer{
+    background-color: #17a2b8;
 }
-.bg-info {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-info-rgb),var(--bs-bg-opacity))!important;
+.footainer{
+    display:flex;
+    justify-content:center;
+    padding-top: 20px;
+    
 }
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 0.25rem;
+
+footer p{
+    margin-right: 40vw;
+    
+}
+
+#icons i{
+    margin: 0px 3px;
 }
